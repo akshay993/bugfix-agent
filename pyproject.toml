@@ -1,0 +1,18 @@
+[project]
+name = "bugfix-agent"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "aisuite>=0.2.0",
+    "anthropic>=2.3.0",
+    "black>=26.10.1",
+    "click>=8.5.0",
+    "docker>=7.2.0",
+    "flake8>=7.5.0",
+    "isort>=9.0.2",
+    "mypy>=2.4.1",
+    "pydantic>=2.14.2",
+    "pydantic-ai>=2.63.0",
+    "pydantic-settings>=2.16.2",
+    "pytest>=9.2.0",
+]
